@@ -1,0 +1,30 @@
+# ===== OS files =====
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ===== IDE / Editor =====
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ===== C++ =====
+*.o
+*.obj
+*.exe
+*.out
+*.a
+*.so
+*.dll
+*.dylib
+build/
+bin/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+
+
+
+
+
