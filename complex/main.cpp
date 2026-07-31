@@ -7,20 +7,17 @@ private:
     float real, imag;
 
 public:
-    Complex()
-    {
+    Complex(){
         real = 0;
         imag = 0;
     }
 
-    Complex(float Real, float Imag)
-    {
+    Complex(float Real, float Imag){
         real = Real;
         imag = Imag;
     }
 
-    void input()
-    {
+    void input(){
         cout << "Enter real part: ";
         cin >> real;
 
@@ -28,13 +25,11 @@ public:
         cin >> imag;
     }
 
-    Complex add(Complex c)
-    {
+    Complex add(Complex c){
         return Complex(real + c.real, imag + c.imag);
     }
 
-    void show()
-    {
+    void show(){
         if (imag >= 0)
             cout << real << " + " << imag << "i";
         else
@@ -64,7 +59,7 @@ int main()
 
     Complex res = res.add(c1,c2);
     cout<<"C3 : ";
-      res.show();
+    res.show();
     
 
     return 0;
