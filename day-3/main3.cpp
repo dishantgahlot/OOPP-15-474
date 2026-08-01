@@ -25,3 +25,4 @@ int main(){
     cout << "Multiplication with default value: " << mul(x) << endl;
     cout << "Float subtraction: " << subtract(10.5, 5.2) << endl;
     return 0;
+}
