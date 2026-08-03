@@ -25,13 +25,13 @@ public class Const{
    private int x ;
    private int y;
 
-    Point(){
+    Point(){   
 
         x = 0;
         y = 0;
     }
 
-    Point(int a , int b){
+    Point(int a , int b){ 
         this.x = a;
         this.y = b;
 

@@ -10,12 +10,13 @@ class point{
     public :
 
     point(){
+                   // list initialiser point():x{0},y{0}{}
 
         x = 0 ;
         y = 0;
     }
 
-    point(int x , int y){
+    point(int x , int y){   // point(int a , int b ):x{p},y{p}{}
 
         this->x = x;
         this->y = y;
