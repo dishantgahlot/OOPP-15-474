@@ -1,33 +1,33 @@
 #include <iostream>
 using namespace std;
 
-class Demo {
+class Mama {
 public:
     // Default constructor
-    Demo() {
+    Mama() {
         cout << "Default Constructor\n";
     }
 
     // Parameterized constructor
-    Demo(int x) {
+    Mama(int x) {
         cout << "Parameterized Constructor: " << x << endl;
     }
 
     // Copy constructor
-    Demo(const Demo &obj) {
+    Mama(const Mama &obj) {
         cout << "Copy Constructor\n";
     }
 
     // Destructor
-    ~Demo() {
+    ~Mama() {
         cout << "Destructor called\n";
     }
 };
 
 int main() {
-    Demo a;          // Default constructor
-    Demo b(10);      // Parameterized constructor
-    Demo c = b;      // Copy constructor
+    Mama a;          // Default constructor
+    Mama b(10);      // Parameterized constructor
+    Mama c = b;      // Copy constructor
 
     return 0;        // Destructors are called automatically
 }
